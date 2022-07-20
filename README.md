@@ -10,11 +10,11 @@ Build a CNN based model which can accurately detect melanoma.
 * [Contact](#contact)
 
 ## General Information
-Problem Statement:
+## Problem Statement:
 
 Melanoma is a type of cancer that can be deadly if not detected early. It accounts for 75% of skin cancer deaths. A solution which can evaluate images and alert the dermatologists about the presence of melanoma has the potential to reduce a lot of manual effort needed in diagnosis.
 
-Goal:
+## Goal:
 
 Build a CNN based model which can accurately detect melanoma. 
 Build 3 models:
@@ -22,12 +22,12 @@ Build 3 models:
 2. Expand the train images using data augmentation and then train the CNN model
 3. Use Augmentor method to handle the imbalance of class data and then train the CNN model
 
-The following steps are taken as the solution:
+## The following steps are taken as the solution:
 
 1. Import libraries
 2. Import image data
 
-[A] Model building & training on the Original Data
+## [A] Model building & training on the Original Data
 
 3. Load input images into train and validation datasets
 4. Visualize the data
@@ -37,7 +37,7 @@ The following steps are taken as the solution:
 8. Visualize the results
 9. Findings
 
-[B] Model building & training on the Rectified Class Imbalance Data
+## [B] Model building & training on the Rectified Class Imbalance Data
 
 10. Rectify class imbalances present in the training dataset
 11. Create the model after rescaling images 
@@ -46,7 +46,7 @@ The following steps are taken as the solution:
 14. Visualize the results
 15. Findings after Rectified Class Imbalance Treatment
 
-[C] Model building & training on the Rectified Class Imbalance Data using Augmentor
+## [C] Model building & training on the Rectified Class Imbalance Data using Augmentor
 
 16. Rectify class imbalances present in the training dataset with Augmentor library
 17. Load new set of images into train and validation datasets
@@ -56,9 +56,9 @@ The following steps are taken as the solution:
 21. Visualize the results
 22. Findings after Rectified Class Imbalance Treatment
 
-- What is the input data that is being used?
-  "Skin cancer ISIC The International Skin Imaging Collaboration/Train" - 2239 images from 9 classes
-  "Skin cancer ISIC The International Skin Imaging Collaboration/Test" - 118 images 
+## What is the input data that is being used?
+"Skin cancer ISIC The International Skin Imaging Collaboration/Train" - 2239 images from 9 classes
+"Skin cancer ISIC The International Skin Imaging Collaboration/Test" - 118 images
 
 ## Conclusions
 - Conclusion 1: Using plain vanilla CNN model, the model overfitted
