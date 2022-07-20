@@ -5,9 +5,9 @@ Build a CNN based model which can accurately detect melanoma.
 * [General Info](#general-information)
 * [Conclusions](#conclusions)
 * [Technologies Used](#technologies-used)
-* [Links to important documents](https://github.com/suniljadhav/HousePricePrediction/blob/main/README.md#links-to-important-documents)
+* [Links to important documents](#links-to-important-documents)
 * [Acknowledgements](#acknowledgements)
-* [Contact](https://github.com/suniljadhav/HousePricePrediction/edit/main/README.md#contact)
+* [Contact](#contact)
 
 ## General Information
 Problem Statement:
@@ -76,7 +76,7 @@ The following steps are taken as the solution:
 - cv2
 
 ## Links to important documents
-- The Python notebook containing 'Melanoma Detection Assignment - By Sunil Jadhav' can be found here (https://github.com/suniljadhav/HousePricePrediction/blob/13246d9b7e1e05590193125c798fcd8ae1329759/Advanced%20Regression%20Assignment%20-%20House%20Price%20Prediction%20(Part%20I)%20%20-%20Model.ipynb).
+- The Python notebook containing 'Melanoma Detection Assignment' can be found here (https://github.com/suniljadhav/MelanomaDetection/blob/6497ac6fa173ba2e3c5ed628496c11b48eb435ce/SunilJadhav.ipynb).
 
 
 ## Acknowledgements
